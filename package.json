@@ -16,6 +16,8 @@
   "devDependencies": {
     "browserify": "^3.44.2",
     "watchify": "^0.8.2",
-    "serve": "^1.4.0"
+    "serve": "^1.4.0",
+    "gulp-gh-pages": "^0.2.0",
+    "gulp": "^3.6.2"
   }
 }
