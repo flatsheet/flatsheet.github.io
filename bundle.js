@@ -4172,8 +4172,8 @@ function indexOf (xs, x) {
   return -1;
 }
 
-}).call(this,require("/Users/sethvincent/workspace/superbigtree/apps/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"))
-},{"./index.js":18,"/Users/sethvincent/workspace/superbigtree/apps/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":12,"buffer":2,"events":5,"inherits":11,"process/browser.js":19,"string_decoder":24}],22:[function(require,module,exports){
+}).call(this,require("/Users/sethvincent/workspace/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"))
+},{"./index.js":18,"/Users/sethvincent/workspace/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":12,"buffer":2,"events":5,"inherits":11,"process/browser.js":19,"string_decoder":24}],22:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -6265,8 +6265,8 @@ function hasOwnProperty(obj, prop) {
   return Object.prototype.hasOwnProperty.call(obj, prop);
 }
 
-}).call(this,require("/Users/sethvincent/workspace/superbigtree/apps/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./support/isBuffer":26,"/Users/sethvincent/workspace/superbigtree/apps/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":12,"inherits":11}],28:[function(require,module,exports){
+}).call(this,require("/Users/sethvincent/workspace/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+},{"./support/isBuffer":26,"/Users/sethvincent/workspace/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":12,"inherits":11}],28:[function(require,module,exports){
 var qs = require('querystring');
 var hyperquest = require('hyperquest');
 var wait = require('event-stream').wait;
@@ -6622,8 +6622,8 @@ es.pipeable = function () {
   throw new Error('[EVENT-STREAM] es.pipeable is deprecated')
 }
 
-}).call(this,require("/Users/sethvincent/workspace/superbigtree/apps/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"))
-},{"/Users/sethvincent/workspace/superbigtree/apps/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":12,"buffer":2,"duplexer":30,"from":31,"map-stream":32,"pause-stream":33,"split":34,"stream":18,"stream-combiner":35,"through":36}],30:[function(require,module,exports){
+}).call(this,require("/Users/sethvincent/workspace/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"))
+},{"/Users/sethvincent/workspace/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":12,"buffer":2,"duplexer":30,"from":31,"map-stream":32,"pause-stream":33,"split":34,"stream":18,"stream-combiner":35,"through":36}],30:[function(require,module,exports){
 var Stream = require("stream")
 var writeMethods = ["write", "end", "destroy"]
 var readMethods = ["resume", "pause"]
@@ -6783,8 +6783,8 @@ function from (source) {
   return s
 }
 
-}).call(this,require("/Users/sethvincent/workspace/superbigtree/apps/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"))
-},{"/Users/sethvincent/workspace/superbigtree/apps/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":12,"stream":18}],32:[function(require,module,exports){
+}).call(this,require("/Users/sethvincent/workspace/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"))
+},{"/Users/sethvincent/workspace/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":12,"stream":18}],32:[function(require,module,exports){
 (function (process){
 //filter will reemit the data if cb(err,pass) pass is truthy
 
@@ -6932,8 +6932,8 @@ module.exports = function (mapper, opts) {
 
 
 
-}).call(this,require("/Users/sethvincent/workspace/superbigtree/apps/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"))
-},{"/Users/sethvincent/workspace/superbigtree/apps/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":12,"stream":18}],33:[function(require,module,exports){
+}).call(this,require("/Users/sethvincent/workspace/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"))
+},{"/Users/sethvincent/workspace/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":12,"stream":18}],33:[function(require,module,exports){
 //through@2 handles this by default!
 module.exports = require('through')
 
@@ -7151,8 +7151,8 @@ function through (write, end, opts) {
 }
 
 
-}).call(this,require("/Users/sethvincent/workspace/superbigtree/apps/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"))
-},{"/Users/sethvincent/workspace/superbigtree/apps/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":12,"stream":18}],37:[function(require,module,exports){
+}).call(this,require("/Users/sethvincent/workspace/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"))
+},{"/Users/sethvincent/workspace/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":12,"stream":18}],37:[function(require,module,exports){
 (function (process,Buffer){
 var url = require('url');
 var http = require('http');
@@ -7307,8 +7307,8 @@ Req.prototype.setLocation = function (uri) {
     return this;
 };
 
-}).call(this,require("/Users/sethvincent/workspace/superbigtree/apps/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"),require("buffer").Buffer)
-},{"/Users/sethvincent/workspace/superbigtree/apps/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":12,"buffer":2,"duplexer":38,"http":6,"https":10,"through":39,"url":25}],38:[function(require,module,exports){
+}).call(this,require("/Users/sethvincent/workspace/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"),require("buffer").Buffer)
+},{"/Users/sethvincent/workspace/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":12,"buffer":2,"duplexer":38,"http":6,"https":10,"through":39,"url":25}],38:[function(require,module,exports){
 module.exports=require(30)
 },{"stream":18}],39:[function(require,module,exports){
 (function (process){
@@ -7416,5 +7416,5 @@ function through (write, end) {
 }
 
 
-}).call(this,require("/Users/sethvincent/workspace/superbigtree/apps/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"))
-},{"/Users/sethvincent/workspace/superbigtree/apps/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":12,"stream":18}]},{},[1])
+}).call(this,require("/Users/sethvincent/workspace/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"))
+},{"/Users/sethvincent/workspace/flatsheet/flatsheet.github.io/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":12,"stream":18}]},{},[1])

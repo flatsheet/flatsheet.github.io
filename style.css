@@ -435,6 +435,24 @@ a.button.get-started {
 }
 
 
+#landing-description {
+  width:60%; 
+  margin:80px auto 0px auto; 
+}
+
+#landing-description h2 {
+  font-weight: 500;
+}
+
+#landing-description p {
+  font-size:20px;
+  line-height: 1.5;
+}
+
+#landing-description a {
+  font-weight: 500;
+}
+
 
 .container {
   width: 90%;
