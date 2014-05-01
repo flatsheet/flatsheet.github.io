@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/Users/sethvincent/.nvm/v0.10.21/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'deploy' ]
+2 info using npm@1.4.4
+3 info using node@v0.10.21
+4 verbose run-script [ 'predeploy', 'deploy', 'postdeploy' ]
+5 info predeploy flatsheet.github.io@0.0.0
+6 info deploy flatsheet.github.io@0.0.0
+7 verbose unsafe-perm in lifecycle true
+8 info flatsheet.github.io@0.0.0 Failed to exec deploy script
+9 error flatsheet.github.io@0.0.0 deploy: `gulp deploy`
+9 error Exit status 8
+10 error Failed at the flatsheet.github.io@0.0.0 deploy script.
+10 error This is most likely a problem with the flatsheet.github.io package,
+10 error not with npm itself.
+10 error Tell the author that this fails on your system:
+10 error     gulp deploy
+10 error You can get their info via:
+10 error     npm owner ls flatsheet.github.io
+10 error There is likely additional logging output above.
+11 error System Darwin 13.1.0
+12 error command "node" "/Users/sethvincent/.nvm/v0.10.21/bin/npm" "run" "deploy"
+13 error cwd /Users/sethvincent/workspace/flatsheet/flatsheet.github.io
+14 error node -v v0.10.21
+15 error npm -v 1.4.4
+16 error code ELIFECYCLE
+17 verbose exit [ 1, true ]
