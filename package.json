@@ -6,7 +6,7 @@
     "url": "git://github.com/flatsheet/flatsheet.github.io.git"
   },
   "scripts": {
-    "deploy": "gulp deploy",
+    "deploy": "git subtree push --prefix dist origin master",
     "build": "metalsmith",
     "start": "serve -p 1234"
   },
