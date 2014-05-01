@@ -12,7 +12,7 @@ There are currently two API endpoints.
 
 ## Sheet list response example
 
-When requesting: `[https://app.flatsheet.io/api/v1/sheets?username=example](https://app.flatsheet.io/api/v1/sheets?username=example)`
+When requesting: `https://app.flatsheet.io/api/v1/sheets?username=example`
 
 We get this JSON response:
 
@@ -30,7 +30,7 @@ We get this JSON response:
 
 ## Single sheet response example
 
-When requesting: `[https://app.flatsheet.io/api/v1/sheets/:id](https://app.flatsheet.io/api/v1/sheets/:id)`
+When requesting: `https://app.flatsheet.io/api/v1/sheets/:id`
 
 We get this JSON response:
 
