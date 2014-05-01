@@ -6,9 +6,9 @@
     "url": "git://github.com/sethvincent/flatsheet.github.io.git"
   },
   "scripts": {
+    "deploy": "gulp deploy",
     "build": "metalsmith",
-    "watch": "watchify index.js -o bundle.js",
-    "start": "serve & npm run watch"
+    "start": "serve -p 1234"
   },
   "dependencies": {
     "data-table": "^1.0.1",
