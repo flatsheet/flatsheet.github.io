@@ -1,0 +1,44 @@
+---
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ site.title }} ~ {{ site.description }}</title>
+  <meta name="description" content="{{ description }}">
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900' rel='stylesheet' type='text/css'>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <link href="style.css" media="all" rel="stylesheet" />
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1 class="site-title"><a href="/"><i class="fa fa-table" style="font-size:80%; margin-right:3px;"></i> flatsheet</a></h1>
+    <ul class="main-nav">
+      <li><a href="https://app.flatsheet.io/documentation">documentation</a></li>
+        <li>
+        <a href="https://app.flatsheet.io/users/sign_in">sign in</a>  
+        </li>
+        <li>
+        <a href="https://app.flatsheet.io/users/sign_up">create account</a>  
+        </li>
+    </ul>
+  </div>
+</header>
+
+<main role="main">
+  <div class="container">
+    {{ content }}
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <h5></h5>
+  </div>
+</footer>
+
+<script src="bundle.js"></script>
+</body>
+</html>
