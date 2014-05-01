@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flatsheet ~ Manage tabular data with a friendly editor & a simple JSON API</title>
+  <meta name="description" content="">
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900' rel='stylesheet' type='text/css'>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <link href="/style.css" media="all" rel="stylesheet" />
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1 class="site-title"><a href="/"><i class="fa fa-table" style="font-size:80%; margin-right:3px;"></i> flatsheet</a></h1>
+    <ul class="main-nav">
+      <li><a href="/docs">documentation</a></li>
+        <li>
+        <a href="https://app.flatsheet.io/users/sign_in">sign in</a>  
+        </li>
+        <li>
+        <a href="https://app.flatsheet.io/users/sign_up">create account</a>  
+        </li>
+    </ul>
+  </div>
+</header>
+
+<main role="main">
+  <div class="container">
+    <div class="docs">
+  <h1>API Documentation</h1>
+
+<p>There are currently two API endpoints.</p>
+
+<p><strong>To get a list of sheets:</strong> <code>/api/v1/sheets?username=example</code></p>
+
+<p><strong>To get individual sheets:</strong> <code>/api/v1/sheets/:id</code></p>
+
+<h3><code>/api/v1/sheets?username=example</code> Response example</h3>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">[
+  {
+    id: 1,
+    slug: &quot;tcuxl49owsafl-jgp5qrta&quot;,
+    name: &quot;Pizza&quot;,
+    description: &quot;A sheet about pizza.&quot;,
+    url: &quot;http://flatsheet.herokuapp.com/sheets/tcuxl49owsafl-jgp5qrta&quot;
+  }
+]
+</code></pre></div>
+<h3><code>/api/v1/sheets/:id</code> Response example</h3>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">{
+  id: 1,
+    slug: &quot;tcuxl49owsafl-jgp5qrta&quot;,
+    name: &quot;Pizza&quot;,
+    description: &quot;A sheet about pizza.&quot;,
+  rows: [
+    {
+      toppings: &quot;pepperoni, olive, sausage&quot;,
+      cheese: &quot;cheddar&quot;,
+      crust: &quot;deep dish&quot;
+    },
+    {
+      toppings: &quot;salmon, artichoke, basil&quot;,
+      cheese: &quot;mozzarella&quot;,
+      crust: &quot;thin&quot;
+    }
+  ],
+  created_at: &quot;2014-04-24T03:22:03.255Z&quot;,
+  updated_at: &quot;2014-04-24T03:25:14.359Z&quot;
+}
+</code></pre></div>
+</div>
+
+<!--
+<div class="docs-sidebar">
+  <ul>
+    <li><a href="/docs">Getting started</a></li>
+    <li><a href="/docs/api">API</a></li>
+    <li><a href="/docs/curl">Curl</a></li>
+    <li><a href="/docs/javascript">JavaScript</a></li>
+    <li><a href="/docs/ruby">Ruby</a></li>
+  </ul>
+</div>
+-->
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <h5></h5>
+  </div>
+</footer>
+
+</body>
+</html>
