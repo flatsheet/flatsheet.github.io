@@ -6,9 +6,9 @@ layout: docs
 
 There are currently two API endpoints.
 
-**To get a list of sheets:** https://app.flatsheet.io/api/v1/sheets?username=example
+**To get a list of sheets:** [https://app.flatsheet.io/api/v1/sheets?username=example](https://app.flatsheet.io/api/v1/sheets?username=example)
 
-**To get individual sheets:** https://app.flatsheet.io/api/v1/sheets/:id
+**To get individual sheets:** [https://app.flatsheet.io/api/v1/sheets/:id](https://app.flatsheet.io/api/v1/sheets/:id)
 
 ## Sheet list response example
 
