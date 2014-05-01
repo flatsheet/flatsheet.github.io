@@ -6,11 +6,15 @@ layout: docs
 
 There are currently two API endpoints.
 
-**To get a list of sheets:** `/api/v1/sheets?username=example`
+**To get a list of sheets:** `https://app.flatsheet.io/api/v1/sheets?username=example`
 
-**To get individual sheets:** `/api/v1/sheets/:id`
+**To get individual sheets:** `https://app.flatsheet.io/api/v1/sheets/:id`
 
-###`/api/v1/sheets?username=example` Response example
+### Sheet list response example
+
+When requesting: `https://app.flatsheet.io/api/v1/sheets?username=example`
+
+We get this JSON response:
 
 ```
 [
@@ -24,7 +28,11 @@ There are currently two API endpoints.
 ]
 ```
 
-###`/api/v1/sheets/:id` Response example
+### Single sheet response example
+
+When requesting: `https://app.flatsheet.io/api/v1/sheets/:id`
+
+We get this JSON response:
 
 ```
 {
