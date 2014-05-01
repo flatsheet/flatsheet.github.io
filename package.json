@@ -3,7 +3,7 @@
   "description": "landing page for flatsheet",
   "version": "0.0.0",
   "repository": {
-    "url": "git://github.com/sethvincent/flatsheet.github.io.git"
+    "url": "git://github.com/flatsheet/flatsheet.github.io.git"
   },
   "scripts": {
     "deploy": "gulp deploy",
