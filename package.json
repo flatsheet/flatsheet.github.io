@@ -8,7 +8,7 @@
   "scripts": {
     "deploy": "git subtree push --prefix dist origin master",
     "build": "metalsmith",
-    "start": "serve -p 1234"
+    "start": "serve -p 1234 dist"
   },
   "dependencies": {
     "data-table": "^1.0.1",
@@ -18,8 +18,6 @@
     "browserify": "^3.44.2",
     "watchify": "^0.8.2",
     "serve": "^1.4.0",
-    "gulp-gh-pages": "^0.2.0",
-    "gulp": "^3.6.2",
     "metalsmith-markdown": "^0.2.1",
     "handlebars": "^2.0.0-alpha.2",
     "metalsmith": "^0.7.0",
