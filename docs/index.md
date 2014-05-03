@@ -8,7 +8,7 @@ There are currently two API endpoints.
 
 **To get a list of sheets:** [https://app.flatsheet.io/api/v1/sheets?username=example](https://app.flatsheet.io/api/v1/sheets?username=example)
 
-**To get individual sheets:** [https://app.flatsheet.io/api/v1/sheets/:id](https://app.flatsheet.io/api/v1/sheets/:id)
+**To get individual sheets:** [https://app.flatsheet.io/api/v1/sheets/:id](https://app.flatsheet.io/api/v1/sheets/tcuxl49owsafl-jgp5qrta)
 
 ## Sheet list response example
 
@@ -30,7 +30,7 @@ We get this JSON response:
 
 ## Single sheet response example
 
-When requesting: `https://app.flatsheet.io/api/v1/sheets/:id`
+When requesting: `https://app.flatsheet.io/api/v1/sheets/tcuxl49owsafl-jgp5qrta`
 
 We get this JSON response:
 
@@ -55,4 +55,31 @@ We get this JSON response:
   created_at: "2014-04-24T03:22:03.255Z",
   updated_at: "2014-04-24T03:25:14.359Z"
 }
+```
+
+## Simple example of sheet API usage using [browser-request](http://npmjs.org/browser-request):
+
+```
+var request = require('browser-request');
+
+var uri = 'https://app.flatsheet.io/api/v1/sheets/tcuxl49owsafl-jgp5qrta';
+
+request({ uri:uri, json:true }, getRows);
+
+function getRows (error, response, body) {
+  if(error) throw error;
+  var rows = body.rows;
+  console.log(rows);
+}
+```
+
+## Another example using jQuery:
+
+```
+var uri = 'https://app.flatsheet.io/api/v1/sheets/tcuxl49owsafl-jgp5qrta';
+
+$.ajax(uri).done(function( data ) {
+  var rows = data.rows;
+  console.log(rows);
+});
 ```
