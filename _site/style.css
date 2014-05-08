@@ -497,13 +497,13 @@ a.button.get-started {
 
 
 #landing-description {
-  width:60%; 
+  width:100%; 
   margin:80px auto 0px auto; 
 }
 
 #landing-description h2 {
-  font-size: 40px;
-  letter-spacing: -2px;
+  font-size: 20px;
+  letter-spacing: 0px;
   margin-top: 70px;
   margin-bottom: 20px;
   font-weight: 500;
@@ -533,12 +533,17 @@ footer {
   margin: 0px 5px;
   padding: 5px 8px;
   background-color: #f2f2f0;
+  line-height: 2.5;
 }
 
 
 .container {
   width: 90%;
   margin: 0px auto;
+}
+
+#mce-EMAIL {
+  width: 150px;
 }
 
 @media (min-width: 700px) {
@@ -579,6 +584,19 @@ footer {
 
   .button.big {
     padding: 18px 15px 16px 15px;
+  }
+
+  #landing-description {
+    width:60%; 
+  }
+
+  #landing-description h2 {
+    font-size: 40px;
+    letter-spacing: -2px;
+  }
+
+  #mce-EMAIL {
+    width: 250px;
   }
 }
 
