@@ -145,6 +145,8 @@ input[type="submit"] {
   height: 45px;
   line-height: 45px;
   vertical-align: top;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
 }
 
 
@@ -543,7 +545,7 @@ footer {
 }
 
 #mce-EMAIL {
-  width: 150px;
+  width: 275px;
 }
 
 @media (min-width: 700px) {
@@ -593,10 +595,6 @@ footer {
   #landing-description h2 {
     font-size: 40px;
     letter-spacing: -2px;
-  }
-
-  #mce-EMAIL {
-    width: 250px;
   }
 }
 
