@@ -93,6 +93,13 @@ img {
   vertical-align: middle;
 }
 
+img.headshot {
+  float: right;
+  width: 120px;
+  height: auto;
+  margin: 0px 0px 20px 20px;
+  border-radius: 90px;
+}
 
 .serif {
   font-family: Baskerville, sans-serif;
@@ -163,6 +170,9 @@ a.button:hover {
   text-decoration: none;
 }
 
+.big-button-wrapper {
+  display: none;
+}
 
 .endpoint.button {
   font-size: 12px;
@@ -368,24 +378,57 @@ input.sheet-name {
   margin-bottom: 12px;
 }
 
+.welcome {
+  background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: -20px;
+  padding: 20px 0px;
+}
+
+.welcome-logo {
+  width: 75px;
+  height: auto;
+  margin-top: -13px;
+}
+
+.welcome h5 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#crowdfunding {
+  margin: 0px auto;
+}
+
+.left {
+  width: 222px;
+  margin: 0px auto;
+}
+
+.right {
+
+}
 
 .landing p.question {
-  font-size: 50px;
+  font-size: 22px;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 0px;
   font-weight: 200;
   letter-spacing: -2px;
   display: block;
-  padding: 0px 130px;
   color: #2A8782;
 }
 
 .landing h1 {
-  font-size: 70px;
+  font-size: 50px;
   letter-spacing: -2px;
   text-align: center;
   margin-top: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   font-weight: 200;
   color: #332F45;
 }
@@ -394,6 +437,19 @@ input.sheet-name {
   font-weight: 400;
 }
 
+.welcome h2 {
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: -2px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: 200;
+  color: #332F45;
+}
+
+.welcome h2 b {
+  font-weight: 400;
+}
 
 a.button.get-started {
   height: 80px;
@@ -446,7 +502,13 @@ a.button.get-started {
 }
 
 #landing-description h2 {
+  font-size: 40px;
+  letter-spacing: -2px;
+  margin-top: 70px;
+  margin-bottom: 20px;
   font-weight: 500;
+  color: #332F45;
+  text-align: center;
 }
 
 #landing-description p {
@@ -458,15 +520,86 @@ a.button.get-started {
   font-weight: 500;
 }
 
+footer {
+  padding: 40px 0px 30px 0px;
+  text-align: center;
+}
+
+.share {
+  text-align: center;
+}
+
+.share a {
+  margin: 0px 5px;
+  padding: 5px 8px;
+  background-color: #f2f2f0;
+}
+
 
 .container {
   width: 90%;
   margin: 0px auto;
 }
 
+@media (min-width: 700px) {
+  .left {
+    width: 35%;
+    float: left;
+    margin: 0px;
+  }
 
+  .right {
+    float: right;
+    width: 60%;
+  }
 
+  .landing p.question {
+    font-size: 40px;
+    margin-top: 0px;
+    font-weight: 200;
+    letter-spacing: -2px;
+    text-align: left;
+  }
 
+  .landing h1 {
+    font-size: 70px;
+    margin-bottom: 70px;
+  }
+
+  .welcome h2 {
+    font-size: 40px;
+    letter-spacing: -2px;
+    margin-top: 10px;
+    text-align: left;
+  }
+
+  .big-button-wrapper {
+    display: block;
+  }
+
+  .button.big {
+    padding: 18px 15px 16px 15px;
+  }
+}
+
+@media (min-width: 950px) {
+  .left {
+    width: 25%;
+    margin-left: 3%;
+  }
+
+  .right {
+    width: 70%;
+  }
+
+  .landing p.question {
+    font-size: 50px;
+  }
+
+  .welcome h2 {
+    font-size: 50px;
+  }
+}
 
 .container:after,
 .clearfix:after {

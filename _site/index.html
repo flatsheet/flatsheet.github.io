@@ -7,7 +7,7 @@
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <link href="/style.css" media="all" rel="stylesheet" />
 </head>
-<body>
+<body class="front">
 
 <header>
   <div class="container">
@@ -25,32 +25,48 @@
 </header>
 
 <main role="main">
-  <div class="container">
-    <div class="landing">
-  <p class="question">Have sites <i class="serif">&</i> apps that utilize data sets edited by non-technical teammates?</p>
-  <h1>Manage your <b>tabular data</b> through a <b>friendly editor</b> <i class="serif">&</i> a <b>simple JSON API</b>.</h1>
+  <div class="landing">
 
-  <!-- Begin MailChimp Signup Form -->
-  <div id="mc_embed_signup" style="text-align:center;">
-  <br>
-  <form action="http://superbigtree.us5.list-manage1.com/subscribe/post?u=b5b4f7fda673e887e9380b619&amp;id=ecaa95714d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    
-  <div class="mc-field-group">
-    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your email address">
-    <input type="submit" value="Get updates about Flatsheet" name="subscribe" id="mc-embedded-subscribe" class="button">
+<section class="welcome">
+  <div class="container">
+
+    <h1>
+      <img src="/images/logo-150x113.png" class="welcome-logo">
+      flatsheet
+    </h1>
+
+    <div class="right">
+      <p class="question">Have sites <i class="serif">&</i> apps that utilize data sets edited by non-technical teammates?</p>
+      <h2>Manage your <b>tabular data</b> through a <b>friendly editor</b> <i class="serif">&</i> a <b>simple JSON API</b>.</h2>
+      <div class="big-button-wrapper"><a href="https://www.indiegogo.com/projects/flatsheet-a-friendly-editor-api-for-curated-datasets/x/7420143" target="_blank" class="button big">Fund early development of Flatsheet</a></div>
+    </div>
+
+    <div class="left">
+      <h5>Support development of <br>Flatsheet, get early access:</h5>
+      <iframe id="crowdfunding" src="https://www.indiegogo.com/project/flatsheet-a-friendly-editor-api-for-curated-datasets/embedded" width="222px" height="445px" frameborder="0" scrolling="no"></iframe>
+    </div>
+
   </div>
-    <div id="mce-responses" class="clear">
-      <div class="response" id="mce-error-response" style="display:none"></div>
-      <div class="response" id="mce-success-response" style="display:none"></div>
-    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-      <div style="position: absolute; left: -5000px;"><input type="text" name="b_b5b4f7fda673e887e9380b619_ecaa95714d" value=""></div>
-  </form>
-  </div>
-  <!--End mc_embed_signup-->
+</section>
+
+<div class="container">
+
 
   <div id="landing-description">
+    <div class="share">
+      <p>Tell buds about Flatsheet:</p>
+        <a class="icon-twitter" href="https://twitter.com/share?text=Flatsheet, a friendly editor & API for curated datasets&url=http://flatsheet.io"
+          onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+          <span class="hidden">Twitter</span></a>
+        <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://flatsheet.io"
+          onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+          <span class="hidden">Facebook</span></a>
+        <a class="icon-google-plus" href="https://plus.google.com/share?url=http://flatsheet.io"
+         onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+          <span class="hidden">Google+</span></a>
+    </div>
     <h2>
-    <a name="user-content-what-is-this" class="anchor" href="#what-is-this"><span class="octicon octicon-link"></span></a>What is this?</h2>
+    <a name="user-content-what-is-this" class="anchor" href="#what-is-this"><span class="octicon octicon-link"></span></a>What is Flatsheet?</h2>
 
     <p>Have you ever used Google Spreadsheets with something like Tabletop.js to create a sortof ad-hoc mini CMS?</p>
 
@@ -60,12 +76,25 @@
 
     <p>The current goals are to improve the editor UI to create the simplest possible editing experience, to create integrations with other tools, like syncing with Google Spreadsheets and dat, and to allow group collaboration on a dataset through the UI.</p>
 
-    <p>The prototype users Rails, Postgresql, Backbone, and modules from npm.</p>
+    <p>The prototype is built with Rails, Postgresql, Backbone, and modules from npm.</p>
 
     <h2>How can I use it?</h2>
     <p>Right now you can test out Flatsheet by <a href="https://app.flatsheet.io/users/sign_up">creating an account</a> and uploading a CSV file or a JSON file that contains an array of flat objects.</p>
 
     <p><b>Important:</b> This is a prototype, so while we'll preserve any data that exists on the system when upgrading to new versions of the app, remember that Flatsheet is in heavy development and may change at any time.</p>
+
+    <h2>The editor looks like this (for now):</h2>
+    <img src="/images/projects.png">
+    <p>The goal is for your team to be able to edit tabular data without having to deal with the cruft of spreadsheet software or the confusion of CSV or JSON files. Future versions of the editor will be simpler and informed by user testing.</p>
+
+    <h2>What kind of projects can I use this for?</h2>
+    <p>Any project where you have a simple dataset that a client or team member needs to edit regularly, but is simple enough that creating it as a part of the website/app database would be overkill.</p>
+
+    <p>We don't need to create a model, controller, and views just for a list of locations with descriptions that are going on a map.</p>
+
+    <p>We don't need to create a custom post type in Wordpress just to manage regularly changing list of projects that an organization is working on.</p>
+
+    <p>But for projects like those listed above, it is useful to be able to present that kind of information dynamically. Non-technical teammates need to have a place where they can edit each item in the list. We need a JSON API for that list so that we can integrate it into our other content.</p>
 
     <h2>Is this open source? Can I contribute?</h2>
     <p>Heck yeah, bud.</p>
@@ -80,18 +109,68 @@
 
     <p>Writing documentation, developing API client libraries (the javascript client is in development), creating example projects that show usage of the API, and integrating with related tools.</p>
 
-    <h2>Let us know what you think</h2>
-    <p>You can email hi@flatsheet.io or shout at our <a href="https://github.com/flatsheet/flatsheet-prototype/issues" target="_blank">issues queue for the prototype</a>.</p>
+    <h2>Who is working on this?</h2>
+    <p><img class="headshot" src="/images/sethvincent.png"> Seth Vincent is an independent programmer, designer and writer experienced with a wide range of programming languages, web frameworks, and content management systems. Previously he's worked as a writing tutor and as an advisor of a student news organization, advising on technology, journalism, and leadership. He is a co-organizer of <a href="http://seattle.io" target="blank">seattle.io</a>, <a href="http://codeforseattle.org" target="blank">Code for Seattle</a> and <a href="http://seattlewiki.net" target="blank">SeattleWiki</a>, and owner of <a href="http://superbigtree.com" target="blank">super big tree</a>.</p>
+    <p><a href="http://sethvincent.com" target="_blank">sethvincent.com</a> ~ <a href="http://github.com/sethvincent" target="_blank">github.com/sethvincent</a> ~ <a href="http://twitter.com/sethdvincent" target="_blank">twitter.com/sethdvincent</a></p>
+
+    <h2>What do you think?</h2>
+    <p>You can email hi@flatsheet.io or shout at the <a href="https://github.com/flatsheet/flatsheet-prototype/issues" target="_blank">issues queue for the prototype</a> with your ideas & questions.</p>
+
+    <p>If you can help by funding the early development of the project, you'd be a hero.</p>
+
+    <div class="big-button-wrapper" style="text-align:center;"><a href="https://www.indiegogo.com/projects/flatsheet-a-friendly-editor-api-for-curated-datasets/x/7420143" target="_blank" class="button big">Help get Flatsheet rolling</a></div>
+
+    <h2>Find out when big things happen:</h2>
+    <!-- Begin MailChimp Signup Form -->
+    <div id="mc_embed_signup" style="text-align: center;">
+    <br>
+    <form action="http://superbigtree.us5.list-manage1.com/subscribe/post?u=b5b4f7fda673e887e9380b619&amp;id=ecaa95714d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      
+    <div class="mc-field-group">
+      <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your email address">
+      <input type="submit" value="Get updates about Flatsheet" name="subscribe" id="mc-embedded-subscribe" class="button">
+    </div>
+      <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+      </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;"><input type="text" name="b_b5b4f7fda673e887e9380b619_ecaa95714d" value=""></div>
+    </form>
+    </div>
+    <!--End mc_embed_signup-->
+
+    <div class="share">
+      <p>Tell buds about Flatsheet:</p>
+        <a class="icon-twitter" href="https://twitter.com/share?text=Flatsheet, a friendly editor & API for curated datasets&url=http://flatsheet.io"
+          onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+          <span class="hidden">Twitter</span></a>
+        <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://flatsheet.io"
+          onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+          <span class="hidden">Facebook</span></a>
+        <a class="icon-google-plus" href="https://plus.google.com/share?url=http://flatsheet.io"
+         onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+          <span class="hidden">Google+</span></a>
+    <div>
   </div>
+
 </div>
-  </div>
 </main>
 
 <footer>
   <div class="container">
-    <h5></h5>
+    <p><b><a href="http://flatsheet.io" target="blank">Flatsheet</a></b> | <a href="http://flatsheet.io/docs" target="blank">Documentation</a> | <a href="http://github.com/flatsheet" target="blank">Flatsheet on Github</a></p> 
   </div>
 </footer>
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-25237588-8', 'flatsheet.io');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>

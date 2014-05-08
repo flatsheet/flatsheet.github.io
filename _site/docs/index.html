@@ -7,7 +7,7 @@
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <link href="/style.css" media="all" rel="stylesheet" />
 </head>
-<body>
+<body class="">
 
 <header>
   <div class="container">
@@ -25,17 +25,20 @@
 </header>
 
 <main role="main">
-  <div class="container">
-    <div class="docs">
+  <div class="docs">
   <h1>API Documentation</h1>
 
 <p>There are currently two API endpoints.</p>
 
-<p><strong>To get a list of sheets:</strong> <code>/api/v1/sheets?username=example</code></p>
+<p><strong>To get a list of sheets:</strong> <a href="https://app.flatsheet.io/api/v1/sheets?username=example">https://app.flatsheet.io/api/v1/sheets?username=example</a></p>
 
-<p><strong>To get individual sheets:</strong> <code>/api/v1/sheets/:id</code></p>
+<p><strong>To get individual sheets:</strong> <a href="https://app.flatsheet.io/api/v1/sheets/tcuxl49owsafl-jgp5qrta">https://app.flatsheet.io/api/v1/sheets/:id</a></p>
 
-<h3><code>/api/v1/sheets?username=example</code> Response example</h3>
+<h2>Sheet list response example</h2>
+
+<p>When requesting: <code>https://app.flatsheet.io/api/v1/sheets?username=example</code></p>
+
+<p>We get this JSON response:</p>
 <div class="highlight"><pre><code class="text language-text" data-lang="text">[
   {
     id: 1,
@@ -46,7 +49,11 @@
   }
 ]
 </code></pre></div>
-<h3><code>/api/v1/sheets/:id</code> Response example</h3>
+<h2>Single sheet response example</h2>
+
+<p>When requesting: <code>https://app.flatsheet.io/api/v1/sheets/tcuxl49owsafl-jgp5qrta</code></p>
+
+<p>We get this JSON response:</p>
 <div class="highlight"><pre><code class="text language-text" data-lang="text">{
   id: 1,
     slug: &quot;tcuxl49owsafl-jgp5qrta&quot;,
@@ -68,6 +75,27 @@
   updated_at: &quot;2014-04-24T03:25:14.359Z&quot;
 }
 </code></pre></div>
+<h2>Simple example of sheet API usage using <a href="http://npmjs.org/browser-request">browser-request</a>:</h2>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">var request = require(&#39;browser-request&#39;);
+
+var uri = &#39;https://app.flatsheet.io/api/v1/sheets/tcuxl49owsafl-jgp5qrta&#39;;
+
+request({ uri:uri, json:true }, getRows);
+
+function getRows (error, response, body) {
+  if(error) throw error;
+  var rows = body.rows;
+  console.log(rows);
+}
+</code></pre></div>
+<h2>Another example using jQuery:</h2>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">var uri = &#39;https://app.flatsheet.io/api/v1/sheets/tcuxl49owsafl-jgp5qrta&#39;;
+
+$.ajax(uri).done(function( data ) {
+  var rows = data.rows;
+  console.log(rows);
+});
+</code></pre></div>
 </div>
 
 <!--
@@ -81,14 +109,23 @@
   </ul>
 </div>
 -->
-  </div>
 </main>
 
 <footer>
   <div class="container">
-    <h5></h5>
+    <p><b><a href="http://flatsheet.io" target="blank">Flatsheet</a></b> | <a href="http://flatsheet.io/docs" target="blank">Documentation</a> | <a href="http://github.com/flatsheet" target="blank">Flatsheet on Github</a></p> 
   </div>
 </footer>
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-25237588-8', 'flatsheet.io');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>
