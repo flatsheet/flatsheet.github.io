@@ -570,7 +570,8 @@ footer {
 
   .landing h1 {
     font-size: 70px;
-    margin-bottom: 70px;
+    margin-top: 80px;
+    margin-bottom: 50px;
   }
 
   .welcome h2 {
