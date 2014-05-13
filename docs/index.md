@@ -57,6 +57,34 @@ We get this JSON response:
 }
 ```
 
+## Example usage of the Flatsheet API Javascript client:
+
+Install:
+
+```
+npm install --save flatsheet
+```
+
+Usage:
+
+```
+var Flatsheet = require('flatsheet');
+
+var flatsheet = new Flatsheet();
+
+/* list of user's sheets */
+flatsheet.list('example', function(error, response){
+  console.log(error, response)
+});
+
+/* specific sheet */
+flatsheet.sheet('tcuxl49owsafl-jgp5qrta', function (error, response){
+  var rows = response.rows;
+});
+```
+
+[GitHub repo for flatsheet-javascript-client.](https://github.com/flatsheet/flatsheet-javascript-client)
+
 ## Simple example of sheet API usage using [browser-request](http://npmjs.org/browser-request):
 
 ```
