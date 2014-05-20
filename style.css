@@ -65,10 +65,15 @@ b {
 pre,
 code {
   font-family: Monaco, Menlo, monospace;
-  padding: 5px 10px;
+  padding: 0px 4px;
   background-color: #f8f8f8;
   border: 1px solid #e2e2e2;
   overflow: scroll;
+  font-size: 12px;
+}
+
+pre {
+  padding: 10px;
 }
 
 pre code {

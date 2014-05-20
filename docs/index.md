@@ -2,7 +2,13 @@
 layout: docs
 ---
 
-# API Documentation
+# Documentation
+
+## Roadmap
+
+Read about [the roadmap for getting to v1.0 of Flatsheet]({{ site.baseurl}}/roadmap).
+
+## API Documentation
 
 There are currently two API endpoints.
 

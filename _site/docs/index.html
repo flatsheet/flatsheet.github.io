@@ -26,8 +26,15 @@
 </header>
 
 <main role="main">
+  <div class="container">
   <div class="docs">
-  <h1>API Documentation</h1>
+    <h1>Documentation</h1>
+
+<h2>Roadmap</h2>
+
+<p>Read about <a href="/roadmap">the roadmap for getting to v1.0 of Flatsheet</a>.</p>
+
+<h2>API Documentation</h2>
 
 <p>There are currently two API endpoints.</p>
 
@@ -76,6 +83,28 @@
   updated_at: &quot;2014-04-24T03:25:14.359Z&quot;
 }
 </code></pre></div>
+<h2>Example usage of the Flatsheet API Javascript client:</h2>
+
+<p>Install:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">npm install --save flatsheet
+</code></pre></div>
+<p>Usage:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">var Flatsheet = require(&#39;flatsheet&#39;);
+
+var flatsheet = new Flatsheet();
+
+/* list of user&#39;s sheets */
+flatsheet.list(&#39;example&#39;, function(error, response){
+  console.log(error, response)
+});
+
+/* specific sheet */
+flatsheet.sheet(&#39;tcuxl49owsafl-jgp5qrta&#39;, function (error, response){
+  var rows = response.rows;
+});
+</code></pre></div>
+<p><a href="https://github.com/flatsheet/flatsheet-javascript-client">GitHub repo for flatsheet-javascript-client.</a></p>
+
 <h2>Simple example of sheet API usage using <a href="http://npmjs.org/browser-request">browser-request</a>:</h2>
 <div class="highlight"><pre><code class="text language-text" data-lang="text">var request = require(&#39;browser-request&#39;);
 
@@ -97,19 +126,20 @@ $.ajax(uri).done(function( data ) {
   console.log(rows);
 });
 </code></pre></div>
-</div>
+  </div>
 
-<!--
-<div class="docs-sidebar">
-  <ul>
-    <li><a href="/docs">Getting started</a></li>
-    <li><a href="/docs/api">API</a></li>
-    <li><a href="/docs/curl">Curl</a></li>
-    <li><a href="/docs/javascript">JavaScript</a></li>
-    <li><a href="/docs/ruby">Ruby</a></li>
-  </ul>
+  <!--
+  <div class="docs-sidebar">
+    <ul>
+      <li><a href="/docs">Getting started</a></li>
+      <li><a href="/docs/api">API</a></li>
+      <li><a href="/docs/curl">Curl</a></li>
+      <li><a href="/docs/javascript">JavaScript</a></li>
+      <li><a href="/docs/ruby">Ruby</a></li>
+    </ul>
+  </div>
+  -->
 </div>
--->
 </main>
 
 <footer>
