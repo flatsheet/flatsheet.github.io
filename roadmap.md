@@ -3,7 +3,7 @@ layout: docs
 ---
 
 # Flatsheet v1.0 Roadmap
-A plan for Flatsheet v1.0, including roadmaps for the technical and outreach sides of the project, and a timeline for the next two months. This document is still a work in progress. Feedback in the issues queue or sent to hi@flatsheet.io is welcome. 
+A plan for Flatsheet v1.0, including roadmaps for the technical and outreach sides of the project, and a timeline for the next two months. This document is still a work in progress. Feedback in the [GitHub issues queue for this site](https://github.com/flatsheet/flatsheet.github.io/issues) or sent to hi@flatsheet.io is welcome. 
 
 ## Technical
 
