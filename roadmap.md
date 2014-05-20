@@ -49,12 +49,14 @@ A plan for Flatsheet v1.0, including roadmaps for the technical and outreach sid
 
 ### Documentation
 Create clear documentation to make for effective onboarding of new users:
+
 - API
 - Client libraries
 - Editor usage
 
 ### Usage tutorials / example apps
 Create a set of beginner/intermediate tutorials with accompanying sample applications, including:
+
 - Getting started guide
 - API client usage examples
 - Using Flatsheet with Leaflet/MapBox
