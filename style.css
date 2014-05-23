@@ -393,6 +393,7 @@ input.sheet-name {
   background-size: cover;
   margin-top: -20px;
   padding: 20px 0px;
+  text-align: center;
 }
 
 .welcome-logo {
@@ -420,12 +421,12 @@ input.sheet-name {
 
 }
 
-.landing p.question {
-  font-size: 22px;
+.landing .question {
+  font-size: 25px;
   text-align: center;
   margin-top: 0px;
   font-weight: 200;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
   display: block;
   color: #2A8782;
 }
@@ -446,7 +447,7 @@ input.sheet-name {
 
 .welcome h2 {
   text-align: center;
-  font-size: 22px;
+  font-size: 27px;
   letter-spacing: -2px;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -565,12 +566,10 @@ footer {
     width: 60%;
   }
 
-  .landing p.question {
-    font-size: 40px;
+  .landing .question {
+    font-size: 27px;
     margin-top: 0px;
     font-weight: 200;
-    letter-spacing: -2px;
-    text-align: left;
   }
 
   .landing h1 {
@@ -583,7 +582,6 @@ footer {
     font-size: 40px;
     letter-spacing: -2px;
     margin-top: 10px;
-    text-align: left;
   }
 
   .big-button-wrapper {
@@ -614,8 +612,8 @@ footer {
     width: 70%;
   }
 
-  .landing p.question {
-    font-size: 50px;
+  .landing .question {
+    font-size: 38px;
   }
 
   .welcome h2 {

@@ -5,6 +5,9 @@
   "repository": {
     "url": "git://github.com/flatsheet/flatsheet.github.io.git"
   },
+  "scripts": {
+    "start": "jekyll serve --watch"
+  },
   "dependencies": {
     "data-table": "^1.0.1",
     "flatsheet": "^0.1.6"
