@@ -1,5 +1,5 @@
 title: Flatsheet
-description: "Manage tabular data with a friendly editor & a simple JSON API"
+description: "Use a spreadsheet as a content management system"
 permalink: /:categories/:title
 markdown: redcarpet
 baseurl: ""
