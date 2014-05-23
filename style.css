@@ -582,6 +582,7 @@ footer {
     font-size: 40px;
     letter-spacing: -2px;
     margin-top: 10px;
+    margin-bottom: 50px;
   }
 
   .big-button-wrapper {
@@ -618,6 +619,7 @@ footer {
 
   .welcome h2 {
     font-size: 50px;
+    margin-bottom: 70px;
   }
 }
 
