@@ -545,6 +545,12 @@ footer {
 }
 
 
+.project-image {
+  display: block;
+  margin: 30px auto 0px auto;
+  border: 1px solid #efefef;
+}
+
 .container {
   width: 90%;
   margin: 0px auto;
