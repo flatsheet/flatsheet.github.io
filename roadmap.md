@@ -16,6 +16,7 @@ A plan for Flatsheet v1.0, including roadmaps for the technical and outreach sid
 - Add collaborators to a sheet
   - Find by username
   - Invite via email with token param on signup url
+  - Option to make sheet publicly editable
 
 ### Query/sort results
 - Add query, sort, reverse parameters to API endpoint for sheet to determine which rows are returned.
@@ -40,6 +41,9 @@ A plan for Flatsheet v1.0, including roadmaps for the technical and outreach sid
 
 ### Web forms
 - Allow each sheet to have a web form that can be embedded on other sites for the purpose of collecting data.
+
+### Show view
+- Create simple show view of sheet with links to downloads, API endpoint, and editor.
 
 ### Package Flatsheet for easy deployment
 - Research deployment options that Flatsheet will build for and support, decide on one or two (likely AMI and Heroku)
@@ -81,7 +85,7 @@ Promote the tutorials/apps to increase awareness of Flatsheet.
 - Set up Flatsheet blog, social media accounts
 - Start working with organizations on field testing
 - Implement web forms for sheets
-- Make API documentation comprehensive,  include POST, PUT, DELETE requests
+- Make API documentation comprehensive, include POST, PUT, DELETE requests
 - Fully document API clients
 
 ### July
