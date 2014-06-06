@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: page
 ---
 
 # Flatsheet v1.0 Roadmap

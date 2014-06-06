@@ -504,7 +504,8 @@ a.button.get-started {
 }
 
 
-#landing-description {
+#landing-description,
+#page-content {
   width:100%; 
   margin:80px auto 0px auto; 
 }
@@ -599,7 +600,8 @@ footer {
     padding: 18px 15px 16px 15px;
   }
 
-  #landing-description {
+  #landing-description,
+  #page-content {
     width:60%; 
   }
 
