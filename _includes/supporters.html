@@ -1,0 +1,11 @@
+<ul class="supporters">
+{% for s in site.supporters %}
+  <li class="supporter">
+  {% if s.url %}<a href="{{ s.url }}" target="_blank">{% endif %}
+    {{ s.name }}
+  {% if s.url %}</a>{% endif %}
+  </li>
+{% endfor %}
+</ul>
+
+<p>Supporters include backers of the <a href="https://www.indiegogo.com/projects/flatsheet-a-friendly-editor-api-for-curated-datasets" target="_blank">Indiegogo campaign</a> that ran in May 2014.</p>

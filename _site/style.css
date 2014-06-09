@@ -18,6 +18,10 @@ html, body {
   height: 100%;
 }
 
+p {
+  font-size:20px;
+  line-height: 1.5;
+}
 
 *,
 *:before,
@@ -520,11 +524,6 @@ a.button.get-started {
   text-align: center;
 }
 
-#landing-description p {
-  font-size:20px;
-  line-height: 1.5;
-}
-
 #landing-description a {
   font-weight: 500;
 }
@@ -559,6 +558,20 @@ footer {
 
 #mce-EMAIL {
   width: 275px;
+}
+
+ul.supporters {
+  margin: 20px 0px 0px 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+li.supporter {
+  display: inline-block;
+  width: 200px;
+  background-color: #f9f9f7;
+  padding: 20px 30px;
+  margin: 7px 5px;
 }
 
 @media (min-width: 700px) {

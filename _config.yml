@@ -3,3 +3,22 @@ description: "Use a spreadsheet as a content management system"
 permalink: /:categories/:title
 markdown: redcarpet
 baseurl: ""
+supporters:
+  - name: Andrew Hyder
+    url: 
+  - name: The Civic Beat
+    url: http://www.thecivicbeat.com
+  - name: Chad Johansen
+    url: 
+  - name: David Riordan
+    url: 
+  - name: DR-I-VE Decisions
+    url: http://dr-i-ve.com/index.html
+  - name: Isaac Kastama
+    url: https://www.linkedin.com/in/isaackastama
+  - name: Sum:1
+    url: http://twitter.com/sum1_us
+  - name: Tom MacWright
+    url: http://www.macwright.org/
+  - name: Tyler Fisher
+    url:
