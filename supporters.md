@@ -17,7 +17,7 @@ Interested in using Flatsheet or helping it continue as an open source project?
 </a>
 
 
-Support the project and get early access to both the current hosted prototype and 6 months free of the beta hosted version of Flatsheet for $50. The monthly cost of a similar Flatsheet account will be $10/month.
+Support the project and get early access to both the current hosted prototype and 6 months free of the beta hosted version of Flatsheet for $50. The monthly cost of a similar Flatsheet account will be $10/month. You can also optionally be listed on this page as a supporter, with a link to your organization.
 
 
 
