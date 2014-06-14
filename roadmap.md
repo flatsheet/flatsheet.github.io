@@ -5,6 +5,9 @@ layout: page
 # Flatsheet v1.0 Roadmap
 A plan for Flatsheet v1.0. This document is still a work in progress. Feedback in the [GitHub issues queue for this site](https://github.com/flatsheet/flatsheet.github.io/issues) or sent to hi@flatsheet.io is welcome. 
 
+## Refactor backend
+- Switch to using dat repos to store sheet data
+
 ## Concurrent editing
 - Show fields that collaborators are currently editing
 - Track which users edited which fields / track versions
@@ -16,7 +19,7 @@ A plan for Flatsheet v1.0. This document is still a work in progress. Feedback i
   - Invite via email with token param on signup url
   - Option to make sheet publicly editable
 
-## Filter/sort results
+## Filter results
 - Add filter, sort, reverse parameters to API endpoint for sheet to determine which rows are returned.
 
 ## Web forms
