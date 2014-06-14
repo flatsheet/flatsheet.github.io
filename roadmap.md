@@ -3,14 +3,14 @@ layout: page
 ---
 
 # Flatsheet v1.0 Roadmap
-A plan for Flatsheet v1.0, including roadmaps for the technical and outreach sides of the project, and a timeline for the next two months. This document is still a work in progress. Feedback in the [GitHub issues queue for this site](https://github.com/flatsheet/flatsheet.github.io/issues) or sent to hi@flatsheet.io is welcome. 
+A plan for Flatsheet v1.0, including roadmaps for the technical and outreach sides of the project. This document is still a work in progress. Feedback in the [GitHub issues queue for this site](https://github.com/flatsheet/flatsheet.github.io/issues) or sent to hi@flatsheet.io is welcome. 
 
 ## Technical
 
-### Field/user testing
-- Recruit members of Code for Seattle and members of other Code for America brigades to test out Flatsheet
-- Run at least two user testing sessions in Seattle
-- Work with one or two news organizations to identify use cases specific to building news apps.
+### Concurrent editing
+- Show fields that collaborators are currently editing
+- Track which users edited which fields / track versions
+- This feature will require some significant refactoring / replacement of components of the initial prototype.
 
 ### Collaborators
 - Add collaborators to a sheet
@@ -18,26 +18,8 @@ A plan for Flatsheet v1.0, including roadmaps for the technical and outreach sid
   - Invite via email with token param on signup url
   - Option to make sheet publicly editable
 
-### Query/sort results
-- Add query, sort, reverse parameters to API endpoint for sheet to determine which rows are returned.
-
-### Column types
-- Define the `type` of a column.
-- UI for different map types:
-  - leaflet-draw map for `geometry` type
-  - calendar picker for `date` type
-  - time picker for `time` type
-  - others based on needs identified in user testing
-
-### Import, export, and sync
-- Import from and sync with a Google Spreadsheet.
-- GeoJSON API endpoint (depends on having `geometry` column type)
-- CSV file download
-- dat integration
-
-### Client libraries
-- Ruby
-- [JavaScript](http://github.com/flatsheet/flatsheet-javascript-client) (exists, and is already pretty solid)
+### Filter/sort results
+- Add filter, sort, reverse parameters to API endpoint for sheet to determine which rows are returned.
 
 ### Web forms
 - Allow each sheet to have a web form that can be embedded on other sites for the purpose of collecting data.
@@ -66,34 +48,3 @@ Create a set of beginner/intermediate tutorials with accompanying sample applica
 - Using Flatsheet with Leaflet/MapBox
 - Using Flatsheet with Sheetsee.js
 - Importing Flatsheet data into LocalWiki
-
-Promote the tutorials/apps to increase awareness of Flatsheet.
-
-### Blog & social media
-- Create blog to showcase projects built with Flatsheet as well as tutorials for using/developing with Flatsheet
-- Create twitter, google+ accounts for sharing projects built with Flatsheet and other related news
-
-
-## Timeline
-
-### June 
-- First round of user testing
-- Add collaborators
-- Add query, sort, reverse params to sheet endpoint
-- Create first version of AMI for deployment
-- First version of Ruby API client
-- Set up Flatsheet blog, social media accounts
-- Start working with organizations on field testing
-- Implement web forms for sheets
-- Make API documentation comprehensive, include POST, PUT, DELETE requests
-- Fully document API clients
-
-### July
-- Bug fixes
-- Add column types and UI for different types
-- Keep AMI updated with each new version of Flatsheet
-- Work on import, export, sync with dat, Google Spreadsheets, GeoJSON, CSV
-- Create tutorials, example applications
-- Make sure documentation is up to date
-- Second user testing session in Seattle
-- End of July, do big promotional push for v1.0 to raise awareness of the project
