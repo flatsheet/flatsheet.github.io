@@ -47,7 +47,7 @@
 <p>When requesting: <code>https://app.flatsheet.io/api/v1/sheets?username=example</code></p>
 
 <p>We get this JSON response:</p>
-<div class="highlight"><pre><code class="text language-text" data-lang="text">[
+<div class="highlight"><pre><code class="language-text" data-lang="text">[
   {
     id: 1,
     slug: &quot;tcuxl49owsafl-jgp5qrta&quot;,
@@ -62,7 +62,7 @@
 <p>When requesting: <code>https://app.flatsheet.io/api/v1/sheets/tcuxl49owsafl-jgp5qrta</code></p>
 
 <p>We get this JSON response:</p>
-<div class="highlight"><pre><code class="text language-text" data-lang="text">{
+<div class="highlight"><pre><code class="language-text" data-lang="text">{
   id: 1,
     slug: &quot;tcuxl49owsafl-jgp5qrta&quot;,
     name: &quot;Pizza&quot;,
@@ -86,10 +86,10 @@
 <h2>Example usage of the Flatsheet API Javascript client:</h2>
 
 <p>Install:</p>
-<div class="highlight"><pre><code class="text language-text" data-lang="text">npm install --save flatsheet
+<div class="highlight"><pre><code class="language-text" data-lang="text">npm install --save flatsheet
 </code></pre></div>
 <p>Usage:</p>
-<div class="highlight"><pre><code class="text language-text" data-lang="text">var Flatsheet = require(&#39;flatsheet&#39;);
+<div class="highlight"><pre><code class="language-text" data-lang="text">var Flatsheet = require(&#39;flatsheet&#39;);
 
 var flatsheet = new Flatsheet();
 
@@ -106,7 +106,7 @@ flatsheet.sheet(&#39;tcuxl49owsafl-jgp5qrta&#39;, function (error, response){
 <p><a href="https://github.com/flatsheet/flatsheet-javascript-client">GitHub repo for flatsheet-javascript-client.</a></p>
 
 <h2>Simple example of sheet API usage using <a href="http://npmjs.org/browser-request">browser-request</a>:</h2>
-<div class="highlight"><pre><code class="text language-text" data-lang="text">var request = require(&#39;browser-request&#39;);
+<div class="highlight"><pre><code class="language-text" data-lang="text">var request = require(&#39;browser-request&#39;);
 
 var uri = &#39;https://app.flatsheet.io/api/v1/sheets/tcuxl49owsafl-jgp5qrta&#39;;
 
@@ -119,7 +119,7 @@ function getRows (error, response, body) {
 }
 </code></pre></div>
 <h2>Another example using jQuery:</h2>
-<div class="highlight"><pre><code class="text language-text" data-lang="text">var uri = &#39;https://app.flatsheet.io/api/v1/sheets/tcuxl49owsafl-jgp5qrta&#39;;
+<div class="highlight"><pre><code class="language-text" data-lang="text">var uri = &#39;https://app.flatsheet.io/api/v1/sheets/tcuxl49owsafl-jgp5qrta&#39;;
 
 $.ajax(uri).done(function( data ) {
   var rows = data.rows;

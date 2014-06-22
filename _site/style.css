@@ -641,6 +641,7 @@ li.supporter {
   .welcome h2 {
     font-size: 50px;
     margin-bottom: 70px;
+    padding: 0px 10%;
   }
 }
 

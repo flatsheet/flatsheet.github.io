@@ -30,19 +30,23 @@
   <div id="page-content">
     <h1>Flatsheet v1.0 Roadmap</h1>
 
-<p>A plan for Flatsheet v1.0, including roadmaps for the technical and outreach sides of the project, and a timeline for the next two months. This document is still a work in progress. Feedback in the <a href="https://github.com/flatsheet/flatsheet.github.io/issues">GitHub issues queue for this site</a> or sent to hi@flatsheet.io is welcome. </p>
+<p>A plan for Flatsheet v1.0. This document is still a work in progress. Feedback in the <a href="https://github.com/flatsheet/flatsheet.github.io/issues">GitHub issues queue for this site</a> or sent to hi@flatsheet.io is welcome. </p>
 
-<h2>Technical</h2>
-
-<h3>Field/user testing</h3>
+<h2>Refactor backend</h2>
 
 <ul>
-<li>Recruit members of Code for Seattle and members of other Code for America brigades to test out Flatsheet</li>
-<li>Run at least two user testing sessions in Seattle</li>
-<li>Work with one or two news organizations to identify use cases specific to building news apps.</li>
+<li>Switch to using dat repos to store sheet data</li>
 </ul>
 
-<h3>Collaborators</h3>
+<h2>Concurrent editing</h2>
+
+<ul>
+<li>Show fields that collaborators are currently editing</li>
+<li>Track which users edited which fields / track versions</li>
+<li>This feature will require some significant refactoring / replacement of components of the initial prototype.</li>
+</ul>
+
+<h2>Collaborators</h2>
 
 <ul>
 <li>Add collaborators to a sheet
@@ -54,122 +58,38 @@
 </ul></li>
 </ul>
 
-<h3>Query/sort results</h3>
+<h2>Filter results</h2>
 
 <ul>
-<li>Add query, sort, reverse parameters to API endpoint for sheet to determine which rows are returned.</li>
+<li>Add filter, sort, reverse parameters to API endpoint for sheet to determine which rows are returned.</li>
 </ul>
 
-<h3>Column types</h3>
-
-<ul>
-<li>Define the <code>type</code> of a column.</li>
-<li>UI for different map types:
-
-<ul>
-<li>leaflet-draw map for <code>geometry</code> type</li>
-<li>calendar picker for <code>date</code> type</li>
-<li>time picker for <code>time</code> type</li>
-<li>others based on needs identified in user testing</li>
-</ul></li>
-</ul>
-
-<h3>Import, export, and sync</h3>
-
-<ul>
-<li>Import from and sync with a Google Spreadsheet.</li>
-<li>GeoJSON API endpoint (depends on having <code>geometry</code> column type)</li>
-<li>CSV file download</li>
-<li>dat integration</li>
-</ul>
-
-<h3>Client libraries</h3>
-
-<ul>
-<li>Ruby</li>
-<li><a href="http://github.com/flatsheet/flatsheet-javascript-client">JavaScript</a> (exists, and is already pretty solid)</li>
-</ul>
-
-<h3>Web forms</h3>
+<h2>Web forms</h2>
 
 <ul>
 <li>Allow each sheet to have a web form that can be embedded on other sites for the purpose of collecting data.</li>
 </ul>
 
-<h3>Show view</h3>
+<h2>Show view</h2>
 
 <ul>
 <li>Create simple show view of sheet with links to downloads, API endpoint, and editor.</li>
 </ul>
 
-<h3>Package Flatsheet for easy deployment</h3>
+<h2>Package Flatsheet for easy deployment</h2>
 
 <ul>
 <li>Research deployment options that Flatsheet will build for and support, decide on one or two (likely AMI and Heroku)</li>
 <li>Ensure it&#39;s easy for organizations to spin up an internal instance of Flatsheet</li>
 </ul>
 
-<h2>Outreach</h2>
-
-<h3>Documentation</h3>
-
-<p>Create clear documentation to make for effective onboarding of new users:</p>
-
-<ul>
-<li>API</li>
-<li>Client libraries</li>
-<li>Editor usage</li>
-</ul>
-
-<h3>Usage tutorials / example apps</h3>
-
-<p>Create a set of beginner/intermediate tutorials with accompanying sample applications, including:</p>
+<h2>Documentation</h2>
 
 <ul>
 <li>Getting started guide</li>
+<li>Editor usage</li>
+<li>API docs</li>
 <li>API client usage examples</li>
-<li>Using Flatsheet with Leaflet/MapBox</li>
-<li>Using Flatsheet with Sheetsee.js</li>
-<li>Importing Flatsheet data into LocalWiki</li>
-</ul>
-
-<p>Promote the tutorials/apps to increase awareness of Flatsheet.</p>
-
-<h3>Blog &amp; social media</h3>
-
-<ul>
-<li>Create blog to showcase projects built with Flatsheet as well as tutorials for using/developing with Flatsheet</li>
-<li>Create twitter, google+ accounts for sharing projects built with Flatsheet and other related news</li>
-</ul>
-
-<h2>Timeline</h2>
-
-<h3>June</h3>
-
-<ul>
-<li>First round of user testing</li>
-<li>Add collaborators</li>
-<li>Add query, sort, reverse params to sheet endpoint</li>
-<li>Create first version of AMI for deployment</li>
-<li>First version of Ruby API client</li>
-<li>Set up Flatsheet blog, social media accounts</li>
-<li>Start working with organizations on field testing</li>
-<li>Implement web forms for sheets</li>
-<li>Make API documentation comprehensive, include POST, PUT, DELETE requests</li>
-<li>Fully document API clients</li>
-</ul>
-
-<h3>July</h3>
-
-<ul>
-<li>Bug fixes</li>
-<li>Add column types and UI for different types</li>
-<li>Keep AMI updated with each new version of Flatsheet</li>
-<li>Work on import, export, sync with dat, Google Spreadsheets, GeoJSON, CSV</li>
-<li>Create tutorials, example applications</li>
-<li>Make sure documentation is up to date</li>
-<li>Second user testing session in Seattle</li>
-<li>End of July, do big promotional push for v1.0 to raise awareness of the project</li>
 </ul>
 
   </div>
