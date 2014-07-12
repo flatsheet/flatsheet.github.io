@@ -1,6 +1,6 @@
 title: Flatsheet
 description: "Use a spreadsheet as a content management system"
-permalink: /:categories/:title
+permalink: /blog/:categories/:title
 markdown: redcarpet
 baseurl: ""
 supporters:
