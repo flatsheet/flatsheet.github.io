@@ -45,12 +45,3 @@ You can also join the Flatsheet newsletter to get email updates about progress:
 <div style="position: absolute; left: -5000px;"><input type="text" name="b_b5b4f7fda673e887e9380b619_ecaa95714d" value=""></div>
 </form>
 </div>
-
-<br>
-<div class="bio">
-  <p><i>Seth Vincent is a programmer, designer, & writer. Previously he's worked as a writing tutor and as an advisor of a student news organization. He's a co-organizer of <a href="http://codeforseattle.org" target="blank">Code for Seattle</a>, and likes to blog about Seattle at <a href="http://seattle.io" target="blank">seattle.io</a>.</i></p>
-  <a href="https://twitter.com/sethdvincent" class="twitter-follow-button" data-show-count="false">Follow @sethdvincent</a>
-  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-  <iframe src="http://ghbtns.com/github-btn.html?user=sethvincent&type=follow"
-  allowtransparency="true" frameborder="0" scrolling="0" width="140" height="20"></iframe>
-</div>
