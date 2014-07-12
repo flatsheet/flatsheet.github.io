@@ -574,6 +574,32 @@ li.supporter {
   margin: 7px 5px;
 }
 
+h1.post-title,
+h2.post-title,
+#page-content h2.post-title {
+  font-size: 50px;
+  font-weight: 300;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.post-meta {
+  font-size: 80%;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #ccc;
+}
+
+.post-meta span {
+  color: #888;
+}
+
+#page-content h2 {
+  font-weight: 500;
+  margin-top: 50px;
+}
+
 @media (min-width: 700px) {
   .left {
     width: 35%;
