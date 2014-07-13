@@ -44,17 +44,47 @@
 <p>When requesting: <code>https://app.flatsheet.io/api/v1/sheets?username=example</code></p>
 
 <p>We get this JSON response:</p>
-
+<div class="highlight"><pre><code class="language-text" data-lang="text">[
+  {
+    id: 1,
+    slug: &quot;tcuxl49owsafl-jgp5qrta&quot;,
+    name: &quot;Pizza&quot;,
+    description: &quot;A sheet about pizza.&quot;,
+    url: &quot;http://flatsheet.herokuapp.com/sheets/tcuxl49owsafl-jgp5qrta&quot;
+  }
+]
+</code></pre></div>
 <h2>Single sheet response example</h2>
 
 <p>When requesting: <code>https://app.flatsheet.io/api/v1/sheets/tcuxl49owsafl-jgp5qrta</code></p>
 
 <p>We get this JSON response:</p>
-
+<div class="highlight"><pre><code class="language-text" data-lang="text">{
+  id: 1,
+    slug: &quot;tcuxl49owsafl-jgp5qrta&quot;,
+    name: &quot;Pizza&quot;,
+    description: &quot;A sheet about pizza.&quot;,
+  rows: [
+    {
+      toppings: &quot;pepperoni, olive, sausage&quot;,
+      cheese: &quot;cheddar&quot;,
+      crust: &quot;deep dish&quot;
+    },
+    {
+      toppings: &quot;salmon, artichoke, basil&quot;,
+      cheese: &quot;mozzarella&quot;,
+      crust: &quot;thin&quot;
+    }
+  ],
+  created_at: &quot;2014-04-24T03:22:03.255Z&quot;,
+  updated_at: &quot;2014-04-24T03:25:14.359Z&quot;
+}
+</code></pre></div>
 <h2>Example usage of the Flatsheet API Javascript client:</h2>
 
 <p>Install:</p>
-
+<div class="highlight"><pre><code class="language-text" data-lang="text">npm install --save flatsheet
+</code></pre></div>
 <p>Usage:</p>
 <div class="highlight"><pre><code class="language-text" data-lang="text">var Flatsheet = require(&#39;flatsheet&#39;);
 

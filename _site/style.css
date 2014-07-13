@@ -600,6 +600,12 @@ h2.post-title,
   margin-top: 50px;
 }
 
+.posts .post {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f2f2f0;
+  margin-bottom: 40px;
+}
+
 @media (min-width: 700px) {
   .left {
     width: 35%;
