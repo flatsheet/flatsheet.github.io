@@ -51,13 +51,13 @@ a {
 
 
 a:hover {
-  text-decoration: underline;
+  color: #000;
 }
 
 
 a:active,
 a:focus {
-  color: #154240;
+  color: #000;
 }
 
 
@@ -594,6 +594,24 @@ h2.post-title,
 .post-meta span {
   color: #888;
 }
+
+.post-share a {
+  margin-left: 5px;
+}
+
+.post-meta a,
+.post-meta a span {
+  color: #2A8782;
+  text-decoration: none;
+}
+
+
+.post-meta a:hover,
+.post-meta a span:hover {
+  color: #000;
+}
+
+
 
 #page-content h2 {
   font-weight: 500;
