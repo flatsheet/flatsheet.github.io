@@ -11,7 +11,7 @@
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <link href="{{ site.baseurl }}/style.css" media="all" rel="stylesheet" />
 
-  <meta property="og:url" content="{% if page.url %}{{ page.url }}{% else %}http://flatsheet.io{% endif %}"> 
+  <meta property="og:url" content="http://flatsheet.io{{ page.url }}"> 
   <meta property="og:title" content="{% if page.title %}{{ page.title }} - Flatsheet{% else %}Flatsheet{% endif %}">
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}Manage content with custom fields with a friendly editor & a simple JSON API.{% endif %}">
 </head>
