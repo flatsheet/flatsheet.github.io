@@ -22,7 +22,7 @@ My work on Flatsheet over the next two months will be funded by a code sprint gr
 
 I'm super excited about this! The code sprint grant is making it possible to take Flatsheet from a quick prototype to a well-crafted tool designed to meet the needs of actual news teams.
 
-Everything produced as part of the code sprint will be released under an MIT license, either at [github.com/flatsheet](http://github.com/flatsheet) or [github.com/sethvincent](github.com/sethvincent).
+Everything produced as part of the code sprint will be released under an MIT license, either at [github.com/flatsheet](http://github.com/flatsheet) or [github.com/sethvincent](http://github.com/sethvincent).
 
 ## Contributing to Flatsheet
 Interested in getting involved in Flatsheet development?
