@@ -390,7 +390,6 @@ input.sheet-name {
 }
 
 .welcome {
-  background: url(images/bg.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -510,8 +509,8 @@ a.button.get-started {
 
 #landing-description,
 #page-content {
-  width:100%; 
-  margin:80px auto 0px auto; 
+  width:100%;
+  margin:80px auto 0px auto;
 }
 
 #landing-description h2 {
@@ -665,7 +664,7 @@ h2.post-title,
 
   #landing-description,
   #page-content {
-    width:60%; 
+    width:60%;
   }
 
   #landing-description h2 {
