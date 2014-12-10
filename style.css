@@ -114,6 +114,9 @@ img.headshot {
   font-family: Baskerville, sans-serif;
 }
 
+.center {
+  text-align: center;
+}
 
 .user-form {
   width: 300px;
