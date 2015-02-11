@@ -586,6 +586,10 @@ h2.post-title,
   line-height: 1.2;
 }
 
+h3.post-title {
+  font-size: 23px;
+}
+
 .post-meta {
   font-size: 80%;
   text-transform: uppercase;
