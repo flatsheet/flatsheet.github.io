@@ -7,7 +7,7 @@ author: Seth Vincent
 
 Today the Knight Foundation [announced the latest cohort of grantees in the Knight Prototype Fund](http://www.knightfoundation.org/blogs/knightblog/2015/2/10/knight-prototype-fund-supports-10-new-data-storytelling-projects/), and Flatsheet is [one of the projects](http://www.knightfoundation.org/grants/201450224/)!
 
-With this grant I'll be focused on improving the experience of inputting, validating, and revising data. It'll be a chance to experiment with editing loosely-structured tabular data using approaches beyond a simple spreadsheet-style grid editor -- an opportunity to ask "how might we make data input simple and pleasant instead of mind-numbingly boring."
+With this grant I'll be focused on improving the experience of inputting, validating, and revising data. It'll be a chance to experiment with editing loosely-structured tabular data using approaches beyond a simple spreadsheet-style grid editor -- an opportunity to ask questions like "how might we make data input simple and pleasant instead of mind-numbingly boring."
 
 ## Human-centered design
 
