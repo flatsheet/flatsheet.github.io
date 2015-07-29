@@ -5,13 +5,6 @@ published: false
 author: Seth Vincent
 ---
 
-## Major goals:
-- Build a user interface for the fork/merge/push/pull/checkout/etc. functionality of dat
-- Build an open-source community around dat & flatsheet 
-  - Through documentation, example projects, & related js libraries
-- Continue exploring flatsheet's potential use as an open data portal
-- Continue building [township](http://github.com/civicmakerlab/township), the accounts system we've been working on based on our experience with flatsheet.
-
 ## What we've produced:
 - [improved editor](http://github.com/sethvincent/editor-prototype) based on user testing
 - [datwrapper](http://github.com/flatsheet/datwrapper), a wrapper around dat for managing multiple dat instances via JS and JSON API
@@ -38,3 +31,10 @@ author: Seth Vincent
   - Community monitoring system for a section of Seattle's only river.
     - The Duwamish River is a superfund site and clean up is happening over the next 15+ years. Residents in the area need a way to collaboratively monitor that cleanup.
   - Big challenge for this project is having a workflow, a review step for managing submissions. This is where realtime editing fails. The project would benefit greatly from being able to do pull requests.
+
+## Major ongoing goals:
+- Build a user interface for the fork/merge/push/pull/checkout/etc. functionality of dat
+- Build an open-source community around dat & flatsheet 
+  - Through documentation, example projects, & related js libraries
+- Continue exploring flatsheet's potential use as an open data portal
+- Continue building [township](http://github.com/civicmakerlab/township), the accounts system we've been working on based on our experience with flatsheet.
