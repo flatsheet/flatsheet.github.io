@@ -5,7 +5,25 @@ published: false
 author: Seth Vincent
 ---
 
-## What we've produced:
+## Our original goals
+- Conduct user testing
+- Improve editor based on user testing
+- Improve JSON API
+- Write documentation
+
+## What we accomplished
+- Multiple user testing sessions
+- Substantial improvements to the flatsheet editor
+- Roughly a dozen new JavaScript/Node.js modules and contributions to many more
+- A much better sense of what our potential users need
+
+## What we learned
+- Without stronger visual cues to suggest otherwise, people will assume flatsheet is meant for spreadsheets and acts like spreadsheet software
+- How users collaborate with other users on their datasets
+  - People need GitHub style forking and merging more than they need realtime editing
+  - It's very important that the accounts/permissions system is flexible and easy to use
+
+## The code we've produced:
 - [improved editor](http://github.com/sethvincent/editor-prototype) based on user testing
 - [datwrapper](http://github.com/flatsheet/datwrapper), a wrapper around dat for managing multiple dat instances via JS and JSON API
 - [data-schema](http://github.com/sethvincent/data-schema), a module for setting, validating column types
@@ -32,7 +50,7 @@ author: Seth Vincent
     - The Duwamish River is a superfund site and clean up is happening over the next 15+ years. Residents in the area need a way to collaboratively monitor that cleanup.
   - Big challenge for this project is having a workflow, a review step for managing submissions. This is where realtime editing fails. The project would benefit greatly from being able to do pull requests.
 
-## Major ongoing goals:
+## Our ongoing goals:
 - Build a user interface for the fork/merge/push/pull/checkout/etc. functionality of dat
 - Build an open-source community around dat & flatsheet 
   - Through documentation, example projects, & related js libraries
