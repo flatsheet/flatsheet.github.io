@@ -5,7 +5,11 @@ published: false
 author: Seth Vincent
 ---
 
-## Our original goals
+We're nearing the end of our grant period for the Knight Prototype Fund. Here's a roundup of what we've done so far and what we'll be working on over the next month.
+
+Our biggest recent announcement is the early launch of [editdata.org](http://editdata.org), a free tool that lets you edit tabular data and save it to GitHub. It's built using the same JavaScript modules we've written for flatsheet, and serves as a sneak preview of flatsheet.
+
+## Our goals for the Knight Prototype Fund grant:
 - Conduct user testing
 - Improve editor based on user testing
 - Improve JSON API
@@ -23,17 +27,18 @@ author: Seth Vincent
   - People need GitHub style forking and merging more than they need realtime editing
   - It's very important that the accounts/permissions system is flexible and easy to use
 
-## The code we've produced:
+## Some of the code we've produced:
+- [editdata.org](http://editdata.org) – a simple, free tool for editing tabular data & storing it on GitHub.
 - [improved editor](http://github.com/sethvincent/editor-prototype) based on user testing
-- [datwrapper](http://github.com/flatsheet/datwrapper), a wrapper around dat for managing multiple dat instances via JS and JSON API
-- [data-schema](http://github.com/sethvincent/data-schema), a module for setting, validating column types
+- [datwrapper](http://github.com/flatsheet/datwrapper) – a wrapper around dat for managing multiple dat instances via JS and JSON API
+- [data-schema](http://github.com/sethvincent/data-schema) – a module for setting, validating column types
 - [data-cards](http://github.com/sethvincent/data-cards) – an approach to interacting with tabular data that isn't a table/spreadsheet
 - [data-grid](http://github.com/sethvincent/data-grid) – a grid editor/viewer for tabular data
-- [data-editor](http://github.com/sethvincent/data-editor), a command-line tool for editing a csv file
-- [data-ui](http://github.com/sethvincent/data-ui), a collection of modules and resources for creating UIs for managing data
-- [township](http://github.com/civicmakerlab/township), an accounts system that is its own open-source project and internally uses:
-  - [accounts-api](http://github.com/lukeswart/accounts-api), a system for managing accounts via JS and JSON API
-  - [accountdown-model](http://github.com/sethvincent/accountdown-model), a wrapper around [accountdown](http://github.com/substack/accountdown) that adds additional functionality
+- [data-editor](http://github.com/sethvincent/data-editor) – a command-line tool for editing a csv file
+- [data-ui](http://github.com/sethvincent/data-ui) – a collection of modules and resources for creating UIs for managing data
+- [township](http://github.com/civicmakerlab/township) – an accounts system that is its own open-source project and internally uses:
+  - [accounts-api](http://github.com/lukeswart/accounts-api) – a system for managing accounts via JS and JSON API
+  - [accountdown-model](http://github.com/sethvincent/accountdown-model) – a wrapper around [accountdown](http://github.com/substack/accountdown) that adds additional functionality
   - a flexible permissions system inspired by GitHub's
 
 ## What we're working on now:
@@ -45,13 +50,10 @@ author: Seth Vincent
 ## What we plan to work on next:
 - GitHub-style fork & pull requests, with small differences that better fit the use case of "data as editorial content" and that are based upon dat's slightly different functionality
 - Building additional compatible modules that extend flatsheet's functionality and adapt it for different use cases
-- Porting [heyduwamish.org](http://heyduwamish.org) to flatsheet
-  - Community monitoring system for a section of Seattle's only river.
-    - The Duwamish River is a superfund site and clean up is happening over the next 15+ years. Residents in the area need a way to collaboratively monitor that cleanup.
-  - Big challenge for this project is having a workflow, a review step for managing submissions. This is where realtime editing fails. The project would benefit greatly from being able to do pull requests.
+- Supporting the community environment monitoring project [heyduwamish.org](http://heyduwamish.org) by improving their moderation and admin functionality through the same JavaScript modules that are used in flatsheet.
 
 ## Our ongoing goals:
-- Build a user interface for the fork/merge/push/pull/checkout/etc. functionality of dat
+- Build a user interface that allows GitHub-like fork/merge functionality
 - Build an open-source community around dat & flatsheet 
   - Through documentation, example projects, & related js libraries
 - Continue exploring flatsheet's potential use as an open data portal
