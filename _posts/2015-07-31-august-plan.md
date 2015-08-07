@@ -1,7 +1,7 @@
 ---
 title: Flatsheet plan – August 2015
 layout: post
-published: false
+published: true
 author: Seth Vincent
 ---
 
