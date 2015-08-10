@@ -27,21 +27,4 @@ Everything produced as part of the code sprint will be released under an MIT lic
 ## Contributing to Flatsheet
 Interested in getting involved in Flatsheet development?
 
-Ask questions and share ideas in this issue queue: [github.com/flatsheet/discussion/issues](https://github.com/flatsheet/discussion/issues)
-
-You can also join the Flatsheet newsletter to get email updates about progress: 
-
-<div id="mc_embed_signup">
-<form action="http://superbigtree.us5.list-manage1.com/subscribe/post?u=b5b4f7fda673e887e9380b619&amp;id=ecaa95714d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-  
-<div class="mc-field-group">
-  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your email address">
-  <input type="submit" value="Get updates about Flatsheet" name="subscribe" id="mc-embedded-subscribe" class="button">
-</div>
-<div id="mce-responses" class="clear">
-  <div class="response" id="mce-error-response" style="display:none"></div>
-  <div class="response" id="mce-success-response" style="display:none"></div>
-</div>
-<div style="position: absolute; left: -5000px;"><input type="text" name="b_b5b4f7fda673e887e9380b619_ecaa95714d" value=""></div>
-</form>
-</div>
+Ask questions and share ideas in the flatsheet issue queue: [github.com/flatsheet/flatsheet/issues](https://github.com/flatsheet/flatsheet/issues)
