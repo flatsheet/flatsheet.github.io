@@ -1,7 +1,7 @@
 ---
 title: "EditData.org early release"
 layout: post
-published: false
+published: true
 author: Seth Vincent
 ---
 
